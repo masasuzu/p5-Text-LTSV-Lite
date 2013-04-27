@@ -2,7 +2,7 @@ use inc::Module::Install;
 name 'Text-LTSV-Lite';
 all_from 'lib/Text/LTSV/Lite.pm';
 
-# requires '';
+requires 'Exporter::Lite';
 
 tests 't/*.t';
 author_tests 'xt';
